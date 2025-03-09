@@ -1,7 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Progress from "@/components/Progress";
 import First from "@/components/First";
-import Stats from "@/components/Stats";
 import Graph from "@/components/Graph";
 import { Sidebar } from "@/components/Sidebar";
 import Circle from "@/components/Circle";
@@ -15,7 +14,6 @@ export default function Dashboard() {
         <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-6 items-start">
           <div className="flex flex-col gap-6">
             <First />
-            <Stats />
             <Graph />
           </div>
           <div className="flex flex-col gap-6">
